@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Const
+comment0.text=\r\n\r\n\ @author\ Pascal\ Fares\ (c)\ Cnam\ Liban\r\n
+comment1.params=i
+comment1.target=Const(java.lang.Integer)
+comment2.params=
+comment2.target=Expression\ eval()
+comment3.params=
+comment3.target=java.lang.String\ show()
+comment4.params=
+comment4.target=java.lang.Integer\ evalNum()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ConstBuilder
+comment1.params=
+comment1.target=ConstBuilder()
+comment2.params=i
+comment2.target=ConstBuilder\ setI(java.lang.Integer)
+comment2.text=\r\n\ setter\ de\ builder\ (retourne\ ConstBuilder\ pour\r\n\ pouvoir\ enchainer\ les\ setters\r\n
+comment3.params=
+comment3.target=Const\ createConst()
+numComments=4

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ExpressionB
+comment0.text=\n\ omolememte\ composition,\ Abstract\ Factory\ +\ template\n\n\ @author\ Acer\n
+comment1.params=
+comment1.target=Expression\ getE1()
+comment1.text=\n\ @return\ the\ e1\n
+comment2.params=e1
+comment2.target=void\ setE1(Expression)
+comment2.text=\n\ @param\ e1\ the\ e1\ to\ set\n
+comment3.params=
+comment3.target=Expression\ getE2()
+comment3.text=\n\ @return\ the\ e2\n
+comment4.params=e2
+comment4.target=void\ setE2(Expression)
+comment4.text=\n\ @param\ e2\ the\ e2\ to\ set\n
+comment5.params=op\ e1\ e2
+comment5.target=ExpressionB\ create(java.lang.String,\ Expression,\ Expression)
+comment5.text=\n\ C'est\ une\ abstract\ facroty\ en\ focntion\ de\ op\ \:\:\=\=\ choix\ de\ la\ Fabrique\n\ concr\u00E8te\n\n\ @param\ op\n\ @param\ e1\n\ @param\ e2\n\ @return\n
+comment6.params=o
+comment6.target=boolean\ equals(java.lang.Object)
+comment7.params=
+comment7.target=int\ hashCode()
+numComments=8

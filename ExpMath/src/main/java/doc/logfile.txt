@@ -1,0 +1,45 @@
+Class documentation
+<---- javadoc command: ---->
+C:\bluej\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+C:\bluej\bluej\lib\bluejcore.jar;C:\bluej\bluej\lib\junit-4.11.jar;C:\bluej\bluej\lib\hamcrest-core-1.3.jar;C:\bluej\bluej\lib\lang-stride.jar;C:\bluej\bluej\lib\javafx\lib\javafx.base.jar;C:\bluej\bluej\lib\javafx\lib\javafx.controls.jar;C:\bluej\bluej\lib\javafx\lib\javafx.fxml.jar;C:\bluej\bluej\lib\javafx\lib\javafx.graphics.jar;C:\bluej\bluej\lib\javafx\lib\javafx.media.jar;C:\bluej\bluej\lib\javafx\lib\javafx.properties.jar;C:\bluej\bluej\lib\javafx\lib\javafx.swing.jar;C:\bluej\bluej\lib\javafx\lib\javafx.web.jar;C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java
+-d
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\ExpressionB.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\ExpressionB.java...
+Constructing Javadoc information...
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\Const.java:3: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\Const.java:4: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\Add.java:3: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\Add.java:4: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\Sous.java:3: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+C:\Users\ATR\Desktop\ATR\Cnam\Repo\ed5\ExpMath\src\main\java\net\cofares\model\Sous.java:4: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+6 errors

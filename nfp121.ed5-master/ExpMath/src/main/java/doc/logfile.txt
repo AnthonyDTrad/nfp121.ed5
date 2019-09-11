@@ -1,0 +1,34 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-12-oracle/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+12
+-classpath
+/home/pfares/bluej/lib/bluejcore.jar:/home/pfares/bluej/lib/junit-4.11.jar:/home/pfares/bluej/lib/hamcrest-core-1.3.jar:/home/pfares/bluej/lib/lang-stride.jar:/home/pfares/bluej/lib/javafx/lib/javafx.base.jar:/home/pfares/bluej/lib/javafx/lib/javafx.controls.jar:/home/pfares/bluej/lib/javafx/lib/javafx.fxml.jar:/home/pfares/bluej/lib/javafx/lib/javafx.graphics.jar:/home/pfares/bluej/lib/javafx/lib/javafx.media.jar:/home/pfares/bluej/lib/javafx/lib/javafx.properties.jar:/home/pfares/bluej/lib/javafx/lib/javafx.swing.jar:/home/pfares/bluej/lib/javafx/lib/javafx.web.jar:/home/pascalfares/mesgit/nfp121.ed5/libs/gson-2.8.5.jar:/home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java
+-d
+/home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/net/cofares/model/Expression.java
+<---- end of javadoc command ---->
+Loading source file /home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/net/cofares/model/Expression.java...
+Constructing Javadoc information...
+Standard Doclet version 12
+Building tree for all the packages and classes...
+Generating /home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/doc/net/cofares/model/Expression.html...
+Generating /home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/doc/net/cofares/model/package-summary.html...
+Generating /home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/pascalfares/mesgit/nfp121.ed5/ExpMath/src/main/java/doc/index.html...
