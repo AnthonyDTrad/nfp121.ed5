@@ -1,0 +1,16 @@
+1) Que représente la méthode dans les classes du genre? public static Type create(parametres) { ... }
+    ce genre de methode permet de crer une instance dun object definie. par exemple  public static Customer Create(string name, int solde) cree retourne une instance de Customer.
+
+2) D’après vous pourquoi le constructeur est private?
+    Generalement un constructor private quand on applique le pattern singleton ou lorsquon on veux interdir lutulisateur de cree une instance par le constructor (une methode sera fournit pour la creation comme (1))
+
+3) A quoi sert de réécrire les méthodes equal() et hashcode() ?
+    On override ces 2 methodes pour comparer 2 instances de ce meme object (les object sont comparer par leur pointeur si on utulise loperateur '=') 
+    et ne compare pas reellement les propriete de chaque instance, la methode equals est faite pr comparer les object entre eux et non leur pointeur.
+    GetHashCode est appeler parfois avant .equals et cette derniere appele Equals .. ex lorsque lobject est ajouter a une hashset or dictionary
+
+4) qui crée l’expression suivante (((3 -5) + 6) +8) puis lui appliquer les 3 méthodes eval(), evalnum() et show()
+    La classe abstraite Expression cree cette expression et lui applique les 3 methodes au besoin.
+
+5) Excrire les 2 classes qui manques Mult et Div
+    Done
