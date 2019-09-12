@@ -13,4 +13,4 @@
     La classe abstraite Expression cree cette expression et lui applique les 3 methodes au besoin.
 
 NOTE:
-Comme vous avez demander des ameliorations dans la derniere questions, jai reecrit ma propre version en essayant dutuliser touts les patters demander et utulisable (Factory, Composite, Template, Strategy, Visitor) et en ajoutant la descnente recursive demander.
+Comme vous avez demander des ameliorations dans la derniere questions, jai reecrit ma propre version en essayant dutuliser touts les patters demander et utulisable (Factory, Composite,Interpretor, Template, Strategy, Visitor) et en ajoutant la descnente recursive demander.
