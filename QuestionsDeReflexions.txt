@@ -12,5 +12,5 @@
 4) qui crée l’expression suivante (((3 -5) + 6) +8) puis lui appliquer les 3 méthodes eval(), evalnum() et show()
     La classe abstraite Expression cree cette expression et lui applique les 3 methodes au besoin.
 
-5) Excrire les 2 classes qui manques Mult et Div
-    Done
+NOTE:
+Comme vous avez demander des ameliorations dans la derniere questions, jai reecrit ma propre version en essayant dutuliser touts les patters demander et utulisable (Factory, Composite, Template, Strategy, Visitor) et en ajoutant la descnente recursive demander.
