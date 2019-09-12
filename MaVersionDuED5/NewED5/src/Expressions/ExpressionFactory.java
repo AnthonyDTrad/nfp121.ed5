@@ -4,7 +4,7 @@ import Operands.BinaryOperande;
 import Operands.NumberOperande;
 import Operands.Operations;
 
-public  class ExpressionBuilder
+public  class ExpressionFactory
 {
     public static Expression CREATE(double val)
     {

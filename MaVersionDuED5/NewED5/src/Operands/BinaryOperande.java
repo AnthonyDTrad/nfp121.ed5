@@ -22,7 +22,8 @@ public class BinaryOperande implements Expression
     public  Operations GetOperator(){return  ops;}
 
     @Override
-    public <T> T Accept(ExpressionVisitor<T> visitor) {
+    public <T> T Accept(ExpressionVisitor<T> visitor)
+    {
         return visitor.visitBinary(this);
     }
 }

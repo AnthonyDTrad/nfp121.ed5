@@ -1,6 +1,6 @@
 import Expressions.Expression;
-import Expressions.ExpressionBuilder;
 import Expressions.ExpressionContext;
+import Expressions.ExpressionFactory;
 import Expressions.Visitors.ExpressionDisplayerVisitor;
 import Expressions.Visitors.ExpressionEvaluatorVisitor;
 import Operands.Operations;
@@ -9,17 +9,17 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Expression e1= ExpressionBuilder.CREATE(123);
-        Expression e2= ExpressionBuilder.CREATE(456);
-        Expression e3= ExpressionBuilder.CREATE(789);
+        Expression e1= ExpressionFactory.CREATE(123);
+        Expression e2= ExpressionFactory.CREATE(456);
+        Expression e3= ExpressionFactory.CREATE(789);
 
-        Expression ge1=ExpressionBuilder.CREATE(e1, Operations.Add,e2);
-        Expression ge2=ExpressionBuilder.CREATE(e1, Operations.Sub,e2);
+        Expression ge1=ExpressionFactory.CREATE(e1, Operations.Add,e2);
+        Expression ge2=ExpressionFactory.CREATE(e1, Operations.Sub,e2);
 
-        Expression ge3=ExpressionBuilder.CREATE(e2, Operations.Mul,e3);
-        Expression ge4=ExpressionBuilder.CREATE(e2, Operations.Div,e3);
+        Expression ge3=ExpressionFactory.CREATE(e2, Operations.Mul,e3);
+        Expression ge4=ExpressionFactory.CREATE(e2, Operations.Div,e3);
 
-        Expression fge=ExpressionBuilder.CREATE(ge1,Operations.Mul,ge4);
+        Expression fge= ExpressionFactory.CREATE(ge1,Operations.Mul,ge4);
 
         ExpressionContext contextE1=new ExpressionContext(e1,new ExpressionEvaluatorVisitor());
         ExpressionContext contextE2=new ExpressionContext(e2,new ExpressionDisplayerVisitor());
