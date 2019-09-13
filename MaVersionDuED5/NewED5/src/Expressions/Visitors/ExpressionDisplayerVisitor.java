@@ -4,16 +4,30 @@ import Expressions.ExpressionVisitor;
 import Operands.BinaryOperande;
 import Operands.NumberOperande;
 
+/**
+ * This visitor convert an expression to a string int this pattern : (op1 operator op2)
+ */
 public class ExpressionDisplayerVisitor implements ExpressionVisitor<String>
 {
     public static final String SYMBOLE_OUVRANT="(";
     public static final String SYMBOLE_FERMANT=")";
 
+    /**
+     * @param op A single expression
+     * @return Returns the number inside this expression
+     */
     @Override
-    public String visitNumber(NumberOperande op) {
+    public String visitNumber(NumberOperande op)
+    {
         return String.valueOf(op.Value());
     }
 
+
+    /**
+     * @param bop A group of expressions
+     * @param op Char equivalent of an operation
+     * @return the toString() value of the expression
+     */
     private String GetValue(BinaryOperande bop,char op)
     {
         StringBuilder builder = new StringBuilder();
@@ -25,6 +39,10 @@ public class ExpressionDisplayerVisitor implements ExpressionVisitor<String>
                 .append(SYMBOLE_FERMANT));
     }
 
+    /**
+     * @param bop A group of expressions
+     * @return the toString() value of the expression
+     */
     @Override
     public String visitBinary(BinaryOperande bop)
     {

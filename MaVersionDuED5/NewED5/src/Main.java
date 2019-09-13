@@ -5,14 +5,20 @@ import Expressions.Visitors.ExpressionDisplayerVisitor;
 import Expressions.Visitors.ExpressionEvaluatorVisitor;
 import Operands.Operations;
 
+/**
+ * Program entrance, this class is for testing my implementation
+ */
 public class Main
 {
+
     public static void main(String[] args)
     {
+        //creates different expressions from factory
         Expression e1= ExpressionFactory.CREATE(123);
         Expression e2= ExpressionFactory.CREATE(456);
         Expression e3= ExpressionFactory.CREATE(789);
 
+        //combine multiple expressions
         Expression ge1=ExpressionFactory.CREATE(e1, Operations.Add,e2);
         Expression ge2=ExpressionFactory.CREATE(e1, Operations.Sub,e2);
 
@@ -21,6 +27,7 @@ public class Main
 
         Expression fge= ExpressionFactory.CREATE(ge1,Operations.Mul,ge4);
 
+        //creates contexts from the created expressions with 2 visitors
         ExpressionContext contextE1=new ExpressionContext(e1,new ExpressionEvaluatorVisitor());
         ExpressionContext contextE2=new ExpressionContext(e2,new ExpressionDisplayerVisitor());
 
@@ -30,6 +37,7 @@ public class Main
         ExpressionContext contextFge=new ExpressionContext(fge,new ExpressionEvaluatorVisitor());
         ExpressionContext contextFge2=new ExpressionContext(fge,new ExpressionDisplayerVisitor());
 
+        //execute print the results of each expression combination
         System.out.println(contextE1.Execute().toString());
         System.out.println(contextE2.Execute().toString());
         System.out.println(contextGe1.Execute().toString());
